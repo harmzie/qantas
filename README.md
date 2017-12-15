@@ -13,15 +13,18 @@ Use best practices to write code which you follow in your day to day development
 
 Go to URL : https://qa-challenges-lightbulb.atlassian.io
 Create an automated regression for the below ACs
-AC1. I want to turn on and off my light
-AC2. I want my light only use a max of 60% of power
+
+- AC1. I want to turn on and off my light
+- AC2. I want my light only use a max of 60% of power
+
 Once you are complete push code to the feature inclusive BDD reports and any Bugs found
 HINTS - check the network tab ;)
 
 Go to URL : http://phptravels.com/demo/
 Create an automated smoke test suite for the below ACs (you can do some manual set up, but this must be documented)
-AC1. I want to be able book hotels, flights and tours
-AC2. I want to be able to create a cupon/promo-code and use it for tours only
+
+- AC1. I want to be able book hotels, flights and tours
+- AC2. I want to be able to create a cupon/promo-code and use it for tours only
 
 
 ## EXTRA POINTS
