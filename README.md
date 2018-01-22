@@ -25,7 +25,8 @@ Once you are complete push code to the feature, and ensure you provide a README 
 
 ### WEB Automation
 Go to URL : http://phptravels.com/demo/
-Create an automated smoke test suite using http://devexpress.github.io/testcafe/ for the below ACs (you can do some manual set up, but this must be documented)
+Create an automated smoke test suite using http://devexpress.github.io/testcafe/ for the below ACs 
+(you can do some manual set up, but this must be documented)
 Ensure you provide a README file explaining how to run your code
 
 - AC1. I want to be able book hotels, flights or tours
@@ -51,3 +52,8 @@ Ensure you provide a README file explaining how to run your code
 
 6. Fire off SoapUI tests by sending the SoapUI project file to a docker container. 
 
+## NOTE
+
+If you are not able to complete the challenge with the tools requested,
+but you have a framework you are familiar with, please submit the alternative with the relevant documentation 
+on how to install and run your tool
