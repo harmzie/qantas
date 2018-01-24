@@ -2,35 +2,34 @@
 
 ## Instruction for you mission:
 
-fork this project, and provide your own github or github project.
+Fork this project, and provide your own github or bitbucket repository.
 Setup this project with all the libraries you needed to set a testing framework
-Make sure you work on feature branch , not on master.
-Naming convention for the feature branch should be "<YourName-QloyalCodeTest>".
+Make sure you work on a feature branch , not on master.
+Naming convention for the feature branch should be "feature/<YourName-QloyalCodeTest>".
 Once you are complete push code to the feature branch only.
 Use best practices to write code which you follow in your day to day development.
 
 ## Your mission
 
+- Try to complete as much as possible with in 2 days, if you spend 2 hours each day  
+- Ensure you provide a README file explaining how to run your code
+
 ### REST API 
 
 Go to URL : https://qa-challenges-lightbulb.atlassian.io
 Create an automated regression for the below ACs
-Using SOAPUI (using https://qa-challenges-lightbulb.atlassian.io/api/allmethods)
+Using SOAPUI (API documentation https://qa-challenges-lightbulb.atlassian.io/api/allmethods)
 
 - AC1. I want to turn on and off my light
-- AC2. I want my light only use a max of 60% of power
-
-Once you are complete push code to the feature, and ensure you provide a README file explaining how to run your code
 
 
 ### WEB Automation
+
 Go to URL : http://phptravels.com/demo/
-Create an automated smoke test suite using http://devexpress.github.io/testcafe/ for the below ACs 
+Create an automated smoke test suite using http://devexpress.github.io/testcafe/ or your framework of choice for the below ACs 
 (you can do some manual set up, but this must be documented)
-Ensure you provide a README file explaining how to run your code
 
 - AC1. I want to be able book hotels, flights or tours
-- AC2. I want to be able to create a cupon or promo-code and use it for tours only
 
 
 ## EXTRA POINTS
