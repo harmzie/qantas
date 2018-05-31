@@ -11,25 +11,42 @@ Use best practices to write code which you follow in your day to day development
 
 ## Your mission
 
-- Try to complete as much as possible with in 2 days, if you spend 2 hours each day  
-- Ensure you provide a README file explaining how to run your code
+- Try to complete as much as possible with in **2 days** base on the **Role you are applying** 
+- Ensure you provide a ***README.md*** file explaining how to run your code and the **ROLE that you are applying for**
+- **Avoid using .docx** files (this is not easy to read on git repositories)
 
 ### REST API 
 
 Go to URL : https://qa-challenges-lightbulb.atlassian.io
 Create an automated regression for the below ACs
-Using SOAPUI (API documentation https://qa-challenges-lightbulb.atlassian.io/api/allmethods)
+Using either RestAssure or Newman
+API documentation https://qa-challenges-lightbulb.atlassian.io/api/allmethods
 
 - AC1. I want to turn on and off my light
+
+Provide a reports of the exucution and any bugs found ( be creative )
 
 
 ### WEB Automation
 
 Go to URL : http://phptravels.com/demo/
+
 Create an automated smoke test suite using http://devexpress.github.io/testcafe/ or your framework of choice for the below ACs 
 (you can do some manual set up, but this must be documented)
 
 - AC1. I want to be able book hotels, flights or tours
+
+Provide a reports of the exucution and any bugs found ( be creative )
+
+
+### MOBILE Automation
+
+Go to https://apkpure.com/fitbit/com.fitbit.FitbitMobile/download
+Create an automated smoke test suite using http://appium.io/ and any BDD framework
+
+- AC1. User is able to login
+
+Provide a reports of the exucution and any bugs found ( be creative )
 
 
 ## EXTRA POINTS
@@ -55,4 +72,4 @@ Create an automated smoke test suite using http://devexpress.github.io/testcafe/
 
 If you are not able to complete the challenge with the tools requested,
 but you have a framework you are familiar with, please submit the alternative with the relevant documentation 
-on how to install and run your tool
+on how to install and run your tool **(Linux base installations are prefered)**
