@@ -83,10 +83,23 @@ fixture `Light Bulb`
     .page `https://qa-challenges-lightbulb.atlassian.io/`;
 
 
-test('Click the button to turn light on or off', async t => {
+test('Click the button to turn light off and back on', async t => {
      await t.click('#switch') // turn light off
-     .wait(3000) // pausing page state
+     .wait(3000) // just to see the page state
      await t.click('#switch') // turn light on
-     .wait(3000) // pausing the page state
+     .wait(3000) // just to see the page state
+
 
 });
+
+
+//Code
+//Step 1: Imported a class called Selector from the Testcafe module
+//Step 2: Created a fixture called "Light Bulb" and page URL to use for the test
+//Step 3: Added the code to test. Go to the page, turn the light off, wait for 3 seconds, turn it back on, wait for 3 seconds and closes the page
+
+//Running the code
+//Step 1: Go to terminal and CD to location of the *.ts, *.js file
+//Step 2: Run the file by typing testcafe chrome test.js
+//Step 3: Chrome brower will open and go through the test code above. Once it's completed the browser will close automatically
+//Step 4: Observe message in terminal, it should display 1 passed
