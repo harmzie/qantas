@@ -69,3 +69,15 @@ Provide a reports of the exucution and any bugs found ( be creative )
 If you are not able to complete the challenge with the tools requested,
 but you have a framework you are familiar with, please submit the alternative with the relevant documentation 
 on how to install and run your tool **(Linux base installations are prefered)**
+
+
+## My Code
+Step 1: Imported a class called Selector from the Testcafe module
+Step 2: Created a fixture called "Light Bulb" and page URL to use for the test
+Step 3: Added the code to test. Go to the page, turn the light off, wait for 3 seconds, turn it back on, wait for 3 seconds and closes the page
+
+## Running the code
+Step 1: Go to terminal and CD to location of the *.ts, *.js file
+Step 2: Run the file by typing testcafe chrome test.js
+Step 3: Chrome brower will open and go through the test code above. Once it's completed the browser will close automatically
+Step 4: Observe message in terminal, it should display 1 passed
