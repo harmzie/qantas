@@ -73,3 +73,20 @@ Provide a reports of the exucution and any bugs found ( be creative )
 If you are not able to complete the challenge with the tools requested,
 but you have a framework you are familiar with, please submit the alternative with the relevant documentation 
 on how to install and run your tool **(Linux base installations are prefered)**
+
+
+## NOTE AC1. I want to turn on and off my light
+
+import { Selector } from 'testcafe';
+
+fixture `PHP Travels`
+    .page `https://qa-challenges-lightbulb.atlassian.io/`;
+
+
+test('Click the button to turn light on or off', async t => {
+     await t.click('#switch') // turn light off
+     .wait(3000) // pausing page state
+     await t.click('#switch') // turn light on
+     .wait(3000) // pausing the page state
+
+});
