@@ -79,7 +79,7 @@ on how to install and run your tool **(Linux base installations are prefered)**
 
 import { Selector } from 'testcafe';
 
-fixture `PHP Travels`
+fixture `Light Bulb`
     .page `https://qa-challenges-lightbulb.atlassian.io/`;
 
 
