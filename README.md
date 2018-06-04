@@ -82,4 +82,6 @@ on how to install and run your tool **(Linux base installations are prefered)**
 3. Chrome brower will open and go through the test code above. Once it's completed the browser will close automatically
 4. Observe message in terminal, it should display 1 passed
 
+## PHP Travels
+Attempted to do this but did not understand how the selectors worked. Looked up some online examples but could not apply it to my code. https://dev.to/chrisvasqm/e2e-testing-with-testcafe-17jl The flights selector just didn't work.
 
