@@ -71,13 +71,15 @@ but you have a framework you are familiar with, please submit the alternative wi
 on how to install and run your tool **(Linux base installations are prefered)**
 
 
-## My Code
+## Lightbulb Code
 1. Imported a class called Selector from the Testcafe module
 2. Created a fixture called "Light Bulb" and page URL to use for the test
 3. Added the code to test. Go to the page, turn the light off, wait for 3 seconds, turn it back on, wait for 3 seconds and closes the page
 
-## Running the code
+## Running Lightbulb code
 1. Go to terminal and CD to location of the *.ts, *.js file
 2. Run the file by typing testcafe chrome lightbulb.js
 3. Chrome brower will open and go through the test code above. Once it's completed the browser will close automatically
 4. Observe message in terminal, it should display 1 passed
+
+
